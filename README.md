@@ -38,7 +38,7 @@ astronomy pictures from any date in history — including their own birthday.
 
 ## ⚙️ Setup
 
-1. Clone the repo — `git clone (https://github.com/Parth-co79/CosmosLens)`
+1. Clone the repo — `git clone https://github.com/Parth-co79/CosmosLens`
 2. Open `index.js` and add your NASA API key:
 ```javascript
    const API_KEY = 'YOUR_KEY_HERE';
