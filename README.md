@@ -1,8 +1,6 @@
 # 🌌 CosmosLens
 ### NASA Astronomy Picture of the Day Explorer
 
-![Banner]([ADD SCREENSHOT URL HERE])
-
 ---
 
 ## 📖 About
