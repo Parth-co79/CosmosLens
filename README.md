@@ -49,7 +49,3 @@ astronomy pictures from any date in history — including their own birthday.
 
 **Parth Kadukar**  
 GitHub: [Parth-co79](https://github.com/Parth-co79) | LinkedIn: [Parth Kadukar](https://www.linkedin.com/in/parth-kadukar-7abbb237b/)
-
----
-
-*Built with ♥ using the NASA Open API*
