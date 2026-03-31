@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="index.js"></script>
+    <h1>CosmosLens</h1>
+    <h6>NASA Mission Explorer</h6>
+
+    <input type="date" id="datePicker">
+
+    <button id="loadBtn">Load Image</button>
+
+    <p id="loading" style="display:none;">Loading...</p>
+
+    <div id="content">
+        <h2 id="title"></h2>
+        <img id="image" />
+        <p id="info"></p>
+    </div>
+
+    <script type="module" src="index.js"></script>
 </body>
 </html>
