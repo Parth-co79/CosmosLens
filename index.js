@@ -1,4 +1,4 @@
-const API_KEY = "zJtxz4a7eODb50Nhu7mWTqBgDQM9Py1vg8ts1W7l";
+const API_KEY = "CylpdwwMW4evIFwNlsyemHaa8FLr3P1gf2cYW6dn";
 const elements = {
   btn: document.getElementById("loadBtn"),
   downloadBtn: document.getElementById("downloadBtn"),

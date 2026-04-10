@@ -1,75 +1,114 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body{
+    background-color: #000011;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
 }
-
-body {
-  background: black;
-  color: white;
-  font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
+h1{
+    color: #00cfff;
+    font-size: 50px;
+    text-shadow: 0 0 10px #00cfff, 0 0 20px #00cfff;
+    margin-bottom: 0px;
 }
-
-#content {
-  width: 100%;
-  max-width: 900px;
-  text-align: center;
+h6{
+    color: gray;
+    font-size: 13px;
+    margin-top: 5px;
+    letter-spacing: 3px;
 }
-
-h1 {
-  margin-bottom: 20px;
+#datePicker{
+    margin-top: 30px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid #00cfff;
+    background-color: #000033;
+    color: white;
+    font-size: 15px;
+    color-scheme: dark;
 }
-
-input, button {
-  padding: 10px;
-  margin: 10px 5px;
-  border-radius: 5px;
-  border: none;
+#loadBtn{
+    padding: 8px 20px;
+    margin-left: 10px;
+    background-color: #00cfff;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
 }
-
-button {
-  background: cyan;
-  cursor: pointer;
+#loadBtn:hover{
+    background-color: #009bcc;
 }
-
-img {
-  width: 100%;
-  max-width: 800px;
-  height: auto;
-  border: 2px solid cyan;
-  margin-top: 15px;
-  border-radius: 10px;
+#loading{
+    color: #00cfff;
+    font-size: 18px;
+    margin-top: 15px;
 }
-
-#info {
-  margin-top: 15px;
-  line-height: 1.6;
-  padding: 0 10px;
+#content{
+    margin-top: 30px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000033;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #00cfff;
 }
-
-@media (max-width: 600px) {
-  h1 {
-    font-size: 20px;
-  }
-
-  input, button {
+#title{
+    font-size: 24px;
+    color: #00cfff;
+    margin-bottom: 15px;
+}
+#image{
     width: 100%;
-    margin: 8px 0;
-  }
+    border-radius: 10px;
+    border: 2px solid #00cfff;
 }
-
-@media (min-width: 601px) and (max-width: 1024px) {
-  img {
-    max-width: 90%;
-  }
+#downloadBtn{
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: transparent;
+    color: #00cfff;
+    border: 2px solid #00cfff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
 }
+#downloadBtn:hover{
+    background-color: #00cfff;
+    color: black;
+}
+#info{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #cccccc;
+    line-height: 1.6;
+    text-align: left;
+}
+@media (max-width: 600px) {
+    h1{
+        font-size: 20px;
+    }
 
-@media (min-width: 1025px) {
-  img {
-    max-width: 800px;
-  }
+    #datePicker, #loadBtn{
+        width: 100%;
+        margin: 8px 0;
+        display: block;
+    }
+
+    #content{
+        width: 95%;
+    }
+}
+@media (min-width: 601px) and (max-width: 1024px){
+    #content{
+        width: 80%;
+    }
+}
+@media (min-width: 1025px){
+    #image{
+        max-width: 800px;
+    }
 }
